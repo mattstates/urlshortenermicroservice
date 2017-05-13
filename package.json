@@ -1,0 +1,30 @@
+{
+  "name": "urlshortenermicroservice",
+  "version": "1.0.0",
+  "description": "freecodecamp - url shortener microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattstates/urlshortenermicroservice.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "node.js",
+    "express.js",
+    "mongodb"
+  ],
+  "author": "Matt States",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattstates/urlshortenermicroservice/issues"
+  },
+  "homepage": "https://github.com/mattstates/urlshortenermicroservice#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.8"
+  }
+}
