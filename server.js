@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const port = process.env.port || 3000;
 
 ///// Database and Schema /////
 const mongoose = require('mongoose');
@@ -72,6 +71,6 @@ app.get('/sh/:urlId', (req, res) => {
 });
 
 ///// Server Start /////
-app.listen(port, () => {
-    console.log('listening on port ' + port)
+app.listen(process.env.PORT, () => {
+    console.log('server.js started.')
 });
