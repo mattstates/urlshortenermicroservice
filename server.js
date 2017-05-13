@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const port = process.env.port || 3000;
-if (!process.env.port) require('./env.js');
-
 
 ///// Database and Schema /////
 const mongoose = require('mongoose');
