@@ -8,5 +8,6 @@ This app was built with
   - express.js
   - mongo db
 
+Check out the app here, [https://shorturl-fcc.herokuapp.com/](https://shorturl-fcc.herokuapp.com/)
 
 Learn more at [freecodecamp](https://www.freecodecamp.com/challenges/url-shortener-microservice).
